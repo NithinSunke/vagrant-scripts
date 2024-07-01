@@ -1,0 +1,28 @@
+shared:
+  box: oel7
+  non_rotational: 'on'
+  asm_crs_disk_1: D:\VMBOXES\shared\rac\asm_crs_disk_1.vdi
+  asm_crs_disk_2: D:\VMBOXES\shared\rac\asm_crs_disk_2.vdi
+  asm_crs_disk_3: D:\VMBOXES\shared\rac\asm_crs_disk_3.vdi
+  asm_crs_disk_size: 2
+  asm_data_disk_1: D:\VMBOXES\shared\rac\asm_data_disk_1.vdi
+  asm_data_disk_size: 40
+  asm_reco_disk_1: D:\VMBOXES\shared\rac\asm_reco_disk_1.vdi
+  asm_reco_disk_size: 20
+
+
+node1:
+  vm_name: rac1
+  mem_size: 10240
+  cpus: 4
+  public_ip: 192.168.1.110
+  private_ip: 10.1.2.110
+  u01_disk: D:\VMBOXES\rac1\rac1_u01.vdi
+
+node2:
+  vm_name: rac2
+  mem_size: 10240
+  cpus: 4
+  public_ip: 192.168.1.111
+  private_ip: 10.1.2.111
+  u01_disk: D:\VMBOXES\rac2\rac2_u01.vdi

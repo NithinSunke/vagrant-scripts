@@ -1,0 +1,9 @@
+box: oraclebase/oracle-7
+vm_name: ol7112v01
+mem_size: 4096
+cpus: 2
+public_ip: 192.168.1.40
+disk1_name: D:\VMBOXES\ol7112v01\ol7_112_u01.vdi
+disk2_name: D:\VMBOXES\ol7112v01\ol7_112_u02.vdi
+non_rotational: 'on'
+disk_size: 100

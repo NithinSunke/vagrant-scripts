@@ -1,0 +1,17 @@
+shared:
+  box: oel7
+  non_rotational: 'on'
+
+node1:
+  vm_name: ol7_112_dg1
+  mem_size: 4096
+  cpus: 2
+  public_ip: 192.168.1.21
+  u01_disk: D:\VMBOXES\ol7_112_dg1\ol7_112_dg1_u01.vdi
+
+node2:
+  vm_name: ol7_112_dg2
+  mem_size: 4096
+  cpus: 2
+  public_ip: 192.168.1.22
+  u01_disk: D:\VMBOXES\ol7_112_dg1\ol7_112_dg2_u01.vdi

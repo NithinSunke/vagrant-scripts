@@ -1,0 +1,17 @@
+shared:
+  box: oel7
+  non_rotational: 'on'
+
+node1:
+  vm_name: ol7_19_dg1
+  mem_size: 8096
+  cpus: 1
+  public_ip: 192.168.1.28
+  u01_disk: D:\VMBOXES\ol7_19_dg1\ol7_19_dg1_u01.vdi
+
+node2:
+  vm_name: ol7_19_dg2
+  mem_size: 8096
+  cpus: 1
+  public_ip: 192.168.1.29
+  u01_disk: D:\VMBOXES\ol7_19_dg2\ol7_19_dg2_u01.vdi

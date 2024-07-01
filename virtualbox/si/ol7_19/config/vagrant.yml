@@ -1,0 +1,22 @@
+box: oel7
+vm_name: o719casm01
+mem_size: 10240
+cpus: 2 
+public_ip: 192.168.1.20
+u01_disk: D:\VMBOXES\ol719asm01\ol7_19_rac1_u01.vdi
+non_rotational: 'on'
+asm_crs_disk_1: D:\VMBOXES\ol719asm01\asm_crs_disk_1.vdi
+asm_crs_disk_2: D:\VMBOXES\ol719asm01\asm_crs_disk_2.vdi
+asm_crs_disk_3: D:\VMBOXES\ol719asm01\asm_crs_disk_3.vdi
+asm_crs_disk_size: 10
+asm_data_disk_1: D:\VMBOXES\ol719asm01\asm_data_disk_1.vdi
+asm_data_disk_size: 40
+asm_reco_disk_1: D:\VMBOXES\ol719asm01\asm_reco_disk_1.vdi
+asm_reco_disk_size: 20
+
+  
+  
+  
+  
+  
+
