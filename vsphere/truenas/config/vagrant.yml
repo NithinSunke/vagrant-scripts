@@ -1,0 +1,10 @@
+box: truenas
+vm_name: sdsan02
+public_ip: 192.168.3.20
+esxi_hostport: 22
+esxi_disk_store: VMSTORE
+guest_name: sdsan02
+guest_memsize: 4048
+guest_numvcpus: 2
+guest_guestos: 'centos-64'
+esxi_virtual_network: VLAN20
