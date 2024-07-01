@@ -1,0 +1,8 @@
+box: win2k19
+non_rotational: 'on'
+vm_name: win2k19
+mem_size: 2096
+cpus: 1
+public_ip: 192.168.0.20
+
+

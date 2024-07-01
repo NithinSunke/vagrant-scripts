@@ -1,0 +1,7 @@
+box: oraclebase/oracle-7
+non_rotational: 'on'
+vm_name: wls01
+mem_size: 1024
+cpus: 1
+public_ip: 192.168.0.26
+u01_disk: D:\VMBOXES\wls01\scswls01_u01.vdi

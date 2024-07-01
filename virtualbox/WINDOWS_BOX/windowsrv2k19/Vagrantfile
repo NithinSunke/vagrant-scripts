@@ -1,0 +1,20 @@
+require 'yaml'
+# Variables
+params = YAML.load_file 'config/vagrant.yml'
+var_box            = params['box']
+var_vm_name        = params['vm_name']
+var_mem_size       = params['mem_size']
+var_cpus           = params['cpus']
+var_public_ip      = params['public_ip']
+Vagrant.configure("2") do |config|
+  config.vm.box = var_box
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = var_mem_size # Adjust memory as needed
+    vb.cpus = var_cpus # Adjust CPU cores as needed
+    vb.name   = var_vm_name
+  end
+
+  config.vm.network "public_network", ip: var_public_ip
+
+end
