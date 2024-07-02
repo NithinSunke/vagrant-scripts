@@ -16,9 +16,9 @@ Set-Location -Path $cloneDirectory
 git clone $repoUrl
 
 # Optional: Change to the repository directory (assuming the repo name is 'vagrant-scripts')
-Set-Location -Path (Join-Path $cloneDirectory "vagrant-scripts")
+Set-Location -Path (Join-Path $cloneDirectory "vagrant-scripts\virtualbox\LINUX_BOX\oel7")
 
 # Optional: Confirm the current directory
 Write-Host "Repository cloned to: $(Get-Location)"
 
-
+vagrant up
