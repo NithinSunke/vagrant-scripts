@@ -22,4 +22,6 @@ Set-Location -Path (Join-Path $repo_dir "vagrant-scripts\virtualbox\LINUX_BOX\oe
 # Optional: Confirm the current directory
 Write-Host "Repository cloned to: $(Get-Location)"
 
+#vagrant up
+vagrant up
 
