@@ -1,0 +1,19 @@
+name: Run PowerShell Script
+
+on:
+  push:
+    branches:
+      - main  # Change to your default branch if different
+
+jobs:
+  run-powershell:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Run PowerShell Script
+      run: |
+        .\vagrant_build.ps1
+      
