@@ -9,12 +9,12 @@
 #    New-Item -ItemType Directory -Path $cloneDirectory
 #}
 
-repo_dir = "E:\actions-runner\_work\vagrant-scripts"
+$repo_dir = "E:\actions-runner\_work\vagrant-scripts"
 # Change to the clone directory
 Set-Location -Path $repo_dir
 
 # Clone the repository
-git clone $repoUrl
+#git clone $repoUrl
 
 # Optional: Change to the repository directory (assuming the repo name is 'vagrant-scripts')
 Set-Location -Path (Join-Path $repo_dir "vagrant-scripts")
