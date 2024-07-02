@@ -1,4 +1,4 @@
-box: oraclebase/oracle-7
+box: oel7
 non_rotational: 'on'
 vm_name: ol7orddv 
 mem_size: 2096
