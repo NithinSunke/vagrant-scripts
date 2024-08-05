@@ -1,0 +1,9 @@
+stages:
+  - deploy
+
+deploy_vagrant_vm:
+  stage: deploy
+  tags:
+    - win-server
+  script:
+    - .\vagrant_script.ps1

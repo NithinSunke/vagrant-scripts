@@ -1,0 +1,9 @@
+stages:
+  - deploy
+
+deploy_vagrant_vm:
+  stage: deploy
+  tags: 
+    - windows-server
+  script:
+    -  echo "HELLO WORLD"
